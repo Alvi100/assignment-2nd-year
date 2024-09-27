@@ -1,14 +1,9 @@
 function myFunction(){
     document.getElementById("name").innerHTML= prompt("Enter Your Name: [ max-22 Character ] ");
     document.getElementById("roll").innerHTML= prompt("Enter Your Roll:");
+    document.getElementById("reg").innerHTML= prompt("Enter DU Reg Number:");
     document.getElementById("sname").style.display="none";
     
- }
- 
- function myPrint(){
-   window.print();
-   document.getElementById("print").style.display="none";
- 
  }
 
  function myCorse(){
@@ -22,3 +17,9 @@ function myFunction(){
  function mySession(){
     document.getElementById("session").style.appearance="none";
  }
+
+ function myPrint(){
+    window.print();
+    document.getElementById("print").style.display="none";
+  
+  }
