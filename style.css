@@ -25,6 +25,10 @@ body{
     text-align:center;
     line-height:1.5;
   }
+
+  .sir{
+    margin-top: -28px;
+  }
   
   .sir h3{
     margin: 80px 20px 20px;
