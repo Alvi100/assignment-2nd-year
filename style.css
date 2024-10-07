@@ -27,13 +27,13 @@ body{
   }
 
   .sir{
-    margin-top: -40px;
+    margin-top: -28px;
   }
   
   .sir h3{
     margin: 80px 20px 20px;
-    line-height:1.8;
-    font-size:x-large;
+    line-height: 1.8;
+    font-size:20px;
     
   }
   
@@ -41,7 +41,7 @@ body{
     float: right;
     margin:8px;
     padding: 5px;
-    font-size: x-large;
+    font-size: 20px;
     line-height:1.8;
   }
   
@@ -89,12 +89,15 @@ body{
 
   /* Select Teacher */
   .teacher{
-    margin-bottom: -40px;
+    /* margin-bottom: -40px;  */
+    margin-bottom: -30px;
+    margin-top: 8px;
     padding: 0;
+    margin-left: 0;
   }
 
   .teacher select{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     border: none;
     position: relative;
@@ -106,9 +109,15 @@ body{
   }
 
   .session select{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     border: none;
     position: relative;
     z-index: 999;
+  }
+
+  @media print{
+    .print{
+      display: none;
+    }
   }
