@@ -18,8 +18,8 @@ function myFunction(){
     document.getElementById("session").style.appearance="none";
  }
 
- function myPrint(){
-    window.print();
-    document.getElementById("print").style.display="none";
+//  function myPrint(){
+//     window.print();
+//     document.getElementById("print").style.display="none";
   
-  }
+//   }
