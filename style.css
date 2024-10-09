@@ -38,11 +38,13 @@ body{
   }
   
   .my h3{
-    float: right;
-    margin:8px;
+    /* float: right; */
+    /* margin:8px; */
+    margin-top: 50px;
     padding: 5px;
-    font-size: 20px;
+    font-size: 23px;
     line-height:1.8;
+    text-align: center;
   }
   
   .my p{
@@ -109,7 +111,7 @@ body{
   }
 
   .session select{
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 600;
     border: none;
     position: relative;
